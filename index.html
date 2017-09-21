@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Hurricane Trivia Game</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+</head>
+
+<body>
+
+<!-- The div below is the main container for the entire trivia game --> 
+	<div class="wrapper">
+
+<!-- The container below displays the main title and start button -->
+		<div class="jumbotron">
+			<h1>Hurricane Trivia Game</h1>
+
+	<button type="button" class="initiate btn btn-primary">Start</button>
+		</div>
+
+<!-- The container below displays the clock that will count down -->
+	<div class="clock" id="countDown">
+	</div>
+
+<!-- This container displays the hurricane questions -->
+	<div class="quiz" id="questions">
+	</div>
+
+<!-- This is the button the user can click to stop the timer if they finish in time -->
+	<button id="done">All Done!</button>
+
+ <!-- The container below displays a message when time has expired -->
+	<div class="final-message" id="alldone">
+	</div>
+
+<!-- The container below displays the user's final results -->
+	<div class="tally">
+	</div>
+
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="assets/javascript/game.js"></script>
+
+</body>
+</html>
+
+
+
+

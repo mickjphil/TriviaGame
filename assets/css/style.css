@@ -1,0 +1,32 @@
+
+
+
+body {
+
+	background-image: url();
+	background-color: white;
+
+}
+
+.jumbotron {
+	box-sizing: border-box;
+	height: 500px;
+	background-color: yellow;
+}
+
+.start-button {
+	text-align: center;
+	margin-top: 200px;
+	max-width: 700px;
+
+
+#done {
+	display: none;
+
+}
+
+.quiz {
+	display: none;
+}
+
+}
